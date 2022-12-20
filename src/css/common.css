@@ -16,3 +16,71 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker,
+button.start-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid lightseagreen;
+  border-radius: 4px;
+  background-color: lightcyan;
+  color: lightseagreen;
+  font-size: 18px;
+  text-align: center;
+  width: 200px;
+}
+
+#datetime-picker:hover,
+#datetime-picker:focus,
+button.start-btn:hover,
+button.start-btn:focus {
+  outline: none;
+  border: 1px solid darkcyan;
+}
+
+button.start-btn {
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+#datetime-picker:active,
+button.start-btn:active {
+  color: darkcyan;
+}
+
+button.start-btn[disabled],
+button.start-btn[disabled]:hover,
+button.start-btn[disabled]:focus,
+button.start-btn[disabled]:active,
+#datetime-picker[disabled],
+#datetime-picker[disabled]:hover,
+#datetime-picker[disabled]:focus,
+#datetime-picker[disabled]:active {
+  opacity: 0.3;
+  color: lightseagreen;
+  border: 1px solid lightseagreen;
+}
+
+.timer {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  color: lightseagreen;
+  font-size: 21px;
+}
+
+.field {
+  background-color: lightcyan;
+  border: 1px solid lightseagreen;
+  margin: 0 10px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 20px;
+  flex-direction: column;
+}
