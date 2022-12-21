@@ -31,9 +31,9 @@ function onFailure({ position, delay }) {
 function onFormSubmit(e) {
   e.preventDefault();
 
-  setDelay = delay.valueAsNumber;
-  setStep = step.valueAsNumber;
-  setAmount = amount.valueAsNumber;
+  const setDelay = delay.valueAsNumber;
+  const setStep = step.valueAsNumber;
+  const setAmount = amount.valueAsNumber;
 
   for (let i = 0; i < setAmount; i += 1) {
     const stepDelay = setDelay + setStep * i;
