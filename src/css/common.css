@@ -84,3 +84,24 @@ button.start-btn[disabled]:active,
   padding: 20px;
   flex-direction: column;
 }
+
+.form {
+  display: block;
+  margin: 20px auto 20px;
+  width: 200px;
+  font-size: 18px;
+}
+
+.form input {
+  display: block;
+  margin: 5px 0 20px;
+  width: 200px;
+  height: 30px;
+}
+
+.form button {
+  display: block;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+}
