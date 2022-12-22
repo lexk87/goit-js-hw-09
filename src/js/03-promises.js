@@ -43,6 +43,8 @@ function onFormSubmit(e) {
       .then(onSucces)
       .catch(onFailure);
   };
+
+  form.reset();
 };
 
 form.addEventListener("submit", onFormSubmit);
